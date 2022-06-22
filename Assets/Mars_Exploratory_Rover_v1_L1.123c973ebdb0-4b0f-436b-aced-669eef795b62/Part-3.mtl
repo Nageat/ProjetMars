@@ -1,0 +1,6 @@
+# Created by Kenney (www.kenney.nl)
+
+newmtl Part-3
+Kd 1 1 1
+map_Kd Textures/Part-3.png
+
