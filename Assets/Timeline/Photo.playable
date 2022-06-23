@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ee0e2aed4baab14c86f376e6e5b656c, type: 3}
   m_Name: TextClip(Clone)(Clone)
   m_EditorClassIdentifier: 
-  text: To take a picture press the photo button at the bottom right
+  text: "Look, my name is Jullia, I'm a space explorer and I'm... lost on mars. \r\n"
   dialog: 1
-  secondsForText: 1
+  secondsForText: 0.5
 --- !u!114 &-6825715076748285780
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -27,9 +27,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ee0e2aed4baab14c86f376e6e5b656c, type: 3}
   m_Name: TextClip
   m_EditorClassIdentifier: 
-  text: You have found the MastCam control chip
+  text: "Curriosity ? Can you hear me? \nGreat, you found the MastCam."
   dialog: 1
-  secondsForText: 1
+  secondsForText: 0.5
 --- !u!114 &-6111983742165337564
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -54,9 +54,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ee0e2aed4baab14c86f376e6e5b656c, type: 3}
   m_Name: TextClip(Clone)(Clone)
   m_EditorClassIdentifier: 
-  text: To activate the camera press "space".
+  text: 'How do you activate it again? Uh... Use the space key!  '
   dialog: 1
-  secondsForText: 1
+  secondsForText: 0.5
 --- !u!114 &-2284363263640954615
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -69,7 +69,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ee0e2aed4baab14c86f376e6e5b656c, type: 3}
   m_Name: TextClip(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: 
-  text: 
+  text: I need you to take some pictures of where you are, so I can get an idea and
+    explain everything to you
+  dialog: 1
+  secondsForText: 0.5
+--- !u!114 &-9794904535092310
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee0e2aed4baab14c86f376e6e5b656c, type: 3}
+  m_Name: TextClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  text: '
+
+'
   dialog: 1
   secondsForText: 1
 --- !u!114 &11400000
@@ -90,12 +108,106 @@ MonoBehaviour:
   - {fileID: 1385920742249474610}
   - {fileID: 8288357276327058717}
   - {fileID: 6328551899931443974}
+  - {fileID: 1175804821508447765}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
     m_ScenePreview: 1
   m_DurationMode: 0
   m_MarkerTrack: {fileID: 0}
+--- !u!114 &1175804821508447765
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21bf7f712d84d26478ebe6a299f21738, type: 3}
+  m_Name: Activation Track (2)
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips:
+  - m_Version: 1
+    m_Start: 11.05
+    m_ClipIn: 0
+    m_Asset: {fileID: 1483301159166724386}
+    m_Duration: 0.4166666666666683
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 1175804821508447765}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Active
+  m_Markers:
+    m_Objects: []
+  m_PostPlaybackState: 3
 --- !u!114 &1385920742249474610
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -121,7 +233,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: -6825715076748285780}
-    m_Duration: 1.9666666666666666
+    m_Duration: 2.349999999999998
     m_TimeScale: 1
     m_ParentTrack: {fileID: 1385920742249474610}
     m_EaseInDuration: 0
@@ -187,10 +299,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: TextClip
   - m_Version: 1
-    m_Start: 4
+    m_Start: 4.766666666666667
     m_ClipIn: 0
     m_Asset: {fileID: -8922342661924664481}
-    m_Duration: 1.9833333333333334
+    m_Duration: 2.966666666666667
     m_TimeScale: 1
     m_ParentTrack: {fileID: 1385920742249474610}
     m_EaseInDuration: 0
@@ -220,10 +332,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: TextClip
   - m_Version: 1
-    m_Start: 5.983333333333333
+    m_Start: 7.733333333333333
     m_ClipIn: 0
     m_Asset: {fileID: -2284363263640954615}
-    m_Duration: 0.38333333333333375
+    m_Duration: 3.0666666666666664
     m_TimeScale: 1
     m_ParentTrack: {fileID: 1385920742249474610}
     m_EaseInDuration: 0
@@ -253,10 +365,43 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: TextClip
   - m_Version: 1
-    m_Start: 1.9666666666666666
+    m_Start: 2.349999999999998
     m_ClipIn: 0
     m_Asset: {fileID: -3735117485326349445}
-    m_Duration: 2.033333333333333
+    m_Duration: 2.4166666666666687
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 1385920742249474610}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: TextClip
+  - m_Version: 1
+    m_Start: 10.8
+    m_ClipIn: 0
+    m_Asset: {fileID: -9794904535092310}
+    m_Duration: 0.6666666666666679
     m_TimeScale: 1
     m_ParentTrack: {fileID: 1385920742249474610}
     m_EaseInDuration: 0
@@ -287,6 +432,18 @@ MonoBehaviour:
     m_DisplayName: TextClip
   m_Markers:
     m_Objects: []
+--- !u!114 &1483301159166724386
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fde0d25a170598d46a0b9dc16b4527a5, type: 3}
+  m_Name: ActivationPlayableAsset
+  m_EditorClassIdentifier: 
 --- !u!74 &1608893481056411048
 AnimationClip:
   m_ObjectHideFlags: 0
@@ -511,7 +668,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 1.9666666666666666
+    m_Start: 7.066666666666665
     m_ClipIn: 0
     m_Asset: {fileID: 1875087315810308712}
     m_Duration: 4.400000000000003
