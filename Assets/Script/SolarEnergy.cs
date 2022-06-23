@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 public class SolarEnergy : MonoBehaviour
 {
     public int MaxEnergy;
@@ -29,6 +31,8 @@ public class SolarEnergy : MonoBehaviour
         if (CurrentEnergy < 1)
         {
             Debug.Log("Plus d'énergie");
+            SceneManager.LoadScene("Mars", LoadSceneMode.Single);
+
         }
         EnergySlider.value = CurrentEnergy;
     }

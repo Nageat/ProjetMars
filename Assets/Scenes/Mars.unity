@@ -1301,7 +1301,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7775891, y: 1}
+    m_SensorSize: {x: 1.7783133, y: 1}
   m_Transitions:
     m_BlendHint: 1
     m_InheritPosition: 1
@@ -6330,7 +6330,7 @@ PlayableDirector:
   m_Enabled: 1
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: 4b6f17b24aa6cd24ba1a3c58b04dbd7d, type: 2}
-  m_InitialState: 1
+  m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
@@ -7188,8 +7188,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ahem...The earth is no longer giving signs of life... And you and I will
-    find out why !
+  m_text: END OF THE PROTOTYPE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 41eadaf9284df96419a2a51a71fa0c2b, type: 2}
   m_sharedMaterial: {fileID: 8449477002358221902, guid: 41eadaf9284df96419a2a51a71fa0c2b,
